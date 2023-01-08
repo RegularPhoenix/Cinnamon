@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cellContainer"
+    android:layout_margin="5dp"
+    app:cardCornerRadius="5dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/itemImage"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/ic_baseline_cookie_24"
+            android:layout_gravity="center"
+            android:layout_marginHorizontal="5dp"
+            android:scaleType="fitXY"
+            android:contentDescription="@string/mainViewElementImageDesc"/>
+
+        <TextView
+            android:id="@+id/itemName"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/empty_item_name_placeholder"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            style="@style/TextAppearance.AppCompat.Title"/>
+
+        <TextView
+            android:id="@+id/itemTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/empty_item_time_placeholder"
+            android:gravity="end"
+            android:layout_gravity="center"
+            android:layout_marginHorizontal="10dp"
+            style="@style/TextAppearance.AppCompat.Title"/>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
