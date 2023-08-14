@@ -1,24 +1,9 @@
 <resources>
     <string name="app_name">Cinnamon</string>
-    <string name="textNew">New</string>
-    <string name="mainViewElementImageDesc">Description</string>
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
-    <string name="dummy_button">Dummy Button</string>
-    <string name="dummy_content">DUMMY\nCONTENT</string>
-    <string name="save_string">Save</string>
-    <string name="delete_string">Delete</string>
-    <string name="dismiss_string">Dismiss</string>
-    <string name="empty_item_name_placeholder">My Recipe</string>
-    <string name="empty_item_time_placeholder">--:--</string>
-    <string name="edit_string">Edit</string>
-    <string name="first_list_title_string">Ingredients:</string>
-    <string name="second_list_title_string">Steps:</string>
-    <string name="add_string">Add</string>
-    <string name="empty_ingredient_amount_placeholder">Amount</string>
-    <string name="empty_ingredient_name_placeholder">Ingredient</string>
-    <string name="edit_ingredient_string">Edit ingredient</string>
-    <string name="edit_step_string">Edit step</string>
-    <string name="empty_step_name_placeholder">What should I do</string>
-    <string name="empty_step_time_placeholder">Time</string>
+    <string name="home_page">Home</string>
+    <string name="todo_page">Todo</string>
+    <string name="new_recipe">New recipe</string>
+    <string name="recipe_editor">Recipe editor</string>
+    <string name="recipe_name">Recipe name</string>
+    <string name="image_pick_error">Failed to load image</string>
 </resources>
